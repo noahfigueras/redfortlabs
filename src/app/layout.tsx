@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "RedFortLabs | AI Agents, Blockchain & Security Research",
   description: "RedFortLabs specializes in cutting-edge AI agents, blockchain technology, and offensive security research. Building unbreakable digital fortresses.",
   keywords: "AI agents, blockchain, security research, red team, offensive security, smart contracts, Web3",
+  icons: {
+    icon: "/redFort.svg",
+  },
 };
 
 export default function RootLayout({
