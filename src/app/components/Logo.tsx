@@ -54,12 +54,6 @@ export function Logo({ className = "", size = 40 }: LogoProps) {
       <rect x="47" y="20" width="6" height="10" rx="3" fill="#0a0a0a" />
       <rect x="66" y="55" width="6" height="10" rx="3" fill="#0a0a0a" />
       
-      {/* Shield overlay */}
-      <path
-        d="M50 85 Q50 90 50 90 Q65 85 70 75 L70 65 L50 70 L30 65 L30 75 Q35 85 50 90"
-        fill="#dc2626"
-        opacity="0.9"
-      />
     </svg>
   );
 }
