@@ -71,13 +71,13 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8 flex justify-center">
+        <div className="mb-8 flex justify-center mt-[100px] sm:mt-0">
           <div className="p-4 rounded-2xl bg-gradient-to-br from-[#dc2626]/20 to-transparent border border-[#dc2626]/30">
             <Logo size={80} />
           </div>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6 ">
           <span className="text-white">Building</span>{" "}
           <span className="gradient-text">Unbreakable</span>
           <br />
